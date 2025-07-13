@@ -1,1 +1,10 @@
-
+python3 /directory/to/HDXer/calc_hdx.py 
+-t /directory/to/first/trajectory/.dcd /directory/to/second/trajectory/.dcd #add all trajectories needed for HDXer
+-p /directory/to/PDB/Structure/.pdb 
+-m BestVendruscolo 
+-dt 0.25 0.5 1.0 2.0 #These are the times for deuterated fraction collection 
+-log /director/to/save/log/file/calc_hdx.log 
+--out Combined_  
+-exp /directory/to/experimental/data/.dat 
+-seg /directory/to/deuterated/fractions/file/.txt 
+-mopt "{ 'save_detailed' : True, 'kint_params' : { 'pD' : 8.0, 'Texp' : 298 } }"
