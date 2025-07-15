@@ -20,15 +20,15 @@ dnap = dna.proctraj.DNAproc(notebookMode=False)
 ######################################################################
 
 # Path where input files will searched and results be written.
-workDir = "/home/klmcguire/MAX/Paper1/DNA/Open/Combined_Trajectories/"
+workDir = "Combined_Trajectories/"
 
 # PSF file name
 #psfFile = os.path.join(workDir, "../MD/Closed/Closed.psf")
-psfFile = "/home/klmcguire/MAX/Paper1/MD/Open/Original_Structure/chainA_open_correctsequence_pH8_CHARMMGUI.psf"
+psfFile = ".psf"
 
 # DCD file name
 #dcdFiles = [os.path.join(workDir, "../MD/Closed/Outputs/MD1/MD1.dcd")]
-dcdFiles = "/home/klmcguire/MAX/Paper1/HDXER/Open/Reduced_Concatenated_Trajectories_Structure/Open_Combined_Trajs.dcd"
+dcdFiles = ".dcd"
 # dcdFiles = [os.path.join(workDir, "decarboxylase.1.short.dcd")]
 
 ligandSegID = "PROA"
