@@ -65,7 +65,7 @@ dataDir = "./AnalysisResults"
 # Path where results will be written (you may want plots and data files in a new location)
 workDir = "./AnalysisResults/Step2"
 
-fileNameRoot = "T70_Open"
+fileNameRoot = ""
 fullPathRoot = os.path.join(dataDir, fileNameRoot)
 
 # Define the segID of the Ligand being studied.
